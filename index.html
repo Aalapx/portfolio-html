@@ -55,10 +55,13 @@
 
     <table>
         <caption>Student Table</caption>
+        </thead>
         <tr>
             <th>Name</th>
             <th>Roll No</th>
         </tr>
+        </thead>
+        <tbody>
         <tr>
             <td>Aalap</td>
             <td>2342</td>
@@ -67,9 +70,41 @@
             <td>Alen</td>
             <td>3435</td>
         </tr>
+        </tbody>
        
     </table>
- 
+    <br>
 
+    <form action="/action.php">
+        <input type="text" placeholder="Username">
+        <br>
+        <input type="password" placeholder="Password"> 
+        <br>
+        <h5>Select Your Class</h5>
+        <br>
+        <label for="101">
+        <input type="radio" value="class XI" name="class" id="101">Class XI
+        </label> 
+        <br>
+        <label for="102">
+        <input type="radio" value="class XII" name="class" id="102">Class XII
+        </label>
+    </form>
+    <br>
+    <h5>Select Your Subjects</h5>
+    <br>
+    <input type="checkbox" name="class" id="103" value="math">Maths
+    <br>
+    <input type="checkbox" name="class" id="104" value="physics">Physics
+    <br><br>
+    <textarea name="Feedback" id="101" placeholder="Enter your feedback here"  rows="5"></textarea>
+    <br>
+    <input type="submit" value="Submit">
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=yt4t0eLdJxCGQ6Nc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <br>
+    <video src="https://www.w3schools.com/html/mov_bbb.mp4" width="320" height="240" controls loop>
+        Your browser does not support the video tag.
 </body>
 </html>
